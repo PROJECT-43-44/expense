@@ -8,7 +8,6 @@ dateInput.addEventListener("change", () => {
     localStorage.setItem('message', date);
 });
 let date = localStorage.getItem('message');
-
 let connector = "in";
 let new_date = date + ' ' + connector;   
 
